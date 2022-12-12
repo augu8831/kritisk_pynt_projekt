@@ -1,8 +1,12 @@
 * {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
 body {
-  background-color: #fffafa;
+  color: #fffafa;
+  line-height: 1.5;
 }
 .col {
   margin: 2rem;
@@ -18,4 +22,13 @@ h2 {
 }
 
 p {
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  color: #e2396f;
 }
