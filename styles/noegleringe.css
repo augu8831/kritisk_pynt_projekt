@@ -30,7 +30,7 @@ p {
 }
 
 .p_style {
-  color: #f7bcee;
+  color: #ffffff;
   font-weight: bold;
   display: flexbox;
   text-align: center;
@@ -39,6 +39,18 @@ p {
   font-style: normal;
   letter-spacing: 2px;
   font-size: 0.8rem;
+}
+
+.p_style2 {
+  color: #ffffff;
+  font-weight: bold;
+  display: inline;
+  text-align: left;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
 }
 
 footer {
@@ -56,14 +68,12 @@ footer {
 
 .headerbanner {
   padding: 10px;
-  text-align: left;
   background: #aee2dd;
-  color: white;
-  font-size: 0.2rem;
   display: flexbox;
-  text-align: left;
-  font-family: quasimoda, sans-serif;
-  font-style: italic;
-  letter-spacing: 2px;
-  text-align: justify;
+}
+
+.footerbanner {
+  padding: 10px;
+  background: #aee2dd;
+  display: flexbox;
 }
