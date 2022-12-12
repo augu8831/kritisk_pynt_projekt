@@ -14,9 +14,11 @@ body {
 
 h1 {
   color: #f7bcee;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   font-size: 2.2rem;
   text-align: center;
+  font-family: "Modak", cursive;
+  font-style: bold;
 }
 
 h2 {
@@ -24,7 +26,8 @@ h2 {
 }
 
 p {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
+  color: black;
 }
 
 header {
@@ -49,4 +52,25 @@ ul {
 .a a {
   color: #e2396f;
   letter-spacing: 1.5px;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.logo_style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+footer {
+  padding-bottom: 2rem;
+  color: #aee2dd;
+}
+
+header {
+  padding-bottom: 7rem;
 }
