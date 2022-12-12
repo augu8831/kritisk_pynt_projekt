@@ -8,7 +8,48 @@
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
 }
+
 img {
-  width: ;
-  height: ;
+  border-radius: 110px;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: #f7bcee;
+  font-weight: bold;
+  display: flexbox;
+  text-align: center;
+  font-family: "Modak", cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 1rem;
+}
+
+.p_style {
+  color: #f7bcee;
+  font-weight: bold;
+  display: flexbox;
+  text-align: center;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+footer {
+  padding-bottom: 2rem;
+  color: #aee2dd;
+}
+
+.logo_style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
