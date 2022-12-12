@@ -29,7 +29,7 @@ p {
   padding-top: 1rem;
 }
 
-.p_style {
+/* .p_style {
   color: #ffffff;
   font-weight: bold;
   display: flexbox;
@@ -51,7 +51,7 @@ p {
   font-style: italic;
   letter-spacing: 2px;
   font-size: 0.7rem;
-}
+} */
 
 footer {
   padding-bottom: 2rem;
@@ -65,7 +65,7 @@ footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
-
+/* 
 .headerbanner {
   padding: 10px;
   background: #aee2dd;
@@ -76,4 +76,4 @@ footer {
   padding: 10px;
   background: #aee2dd;
   display: flexbox;
-}
+} */
