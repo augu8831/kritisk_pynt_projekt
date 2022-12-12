@@ -30,10 +30,6 @@ p {
   color: black;
 }
 
-header {
-  text-align: center;
-}
-
 ul {
   list-style: none;
 }
@@ -73,4 +69,5 @@ footer {
 
 header {
   padding-bottom: 7rem;
+  text-align: center;
 }
