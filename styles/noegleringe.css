@@ -53,3 +53,17 @@ footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+
+.header {
+  padding: 10px;
+  text-align: left;
+  background: #aee2dd;
+  color: white;
+  font-size: 0.2rem;
+  display: flexbox;
+  text-align: left;
+  font-family: quasimoda, sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-align: justify;
+}
