@@ -41,15 +41,14 @@ p {
   font-size: 0.8rem;
 }
 
-footer {
-  padding-bottom: 2rem;
-  color: #aee2dd;
-}
-
 .logo_style {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2rem;
   padding-top: 2rem;
+}
+footer {
+  padding-bottom: 2rem;
+  color: #aee2dd;
 }
