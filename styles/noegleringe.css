@@ -3,8 +3,17 @@
   padding: 0;
 }
 
-grid_shop {
+.grid_shop {
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 1fr;
+}
+
+.col {
+  margin: 2rem;
+}
+
+img {
+  width: ;
+  height: ;
 }
