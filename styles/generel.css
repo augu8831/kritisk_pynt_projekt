@@ -5,8 +5,11 @@
 }
 
 body {
-  color: #fffafa;
   line-height: 1.5;
+}
+
+main {
+  color: #fffafa;
 }
 .col {
   margin: 2rem;
