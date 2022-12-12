@@ -5,8 +5,11 @@
 }
 
 body {
-  color: #fffafa;
   line-height: 1.5;
+}
+
+main {
+  color: #fffafa;
 }
 .col {
   margin: 2rem;
@@ -70,4 +73,40 @@ footer {
 header {
   padding-bottom: 7rem;
   text-align: center;
+}
+
+.headerbanner {
+  padding: 10px;
+  background: #aee2dd;
+  display: flexbox;
+}
+
+.footerbanner {
+  padding: 10px;
+  background: #aee2dd;
+  display: flexbox;
+}
+
+.p_style {
+  color: #ffffff;
+  font-weight: bold;
+  display: flexbox;
+  text-align: center;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+.p_style2 {
+  color: #ffffff;
+  font-weight: bold;
+  display: inline;
+  text-align: left;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
 }
