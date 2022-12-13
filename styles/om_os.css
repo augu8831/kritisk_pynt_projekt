@@ -1,4 +1,4 @@
-.dropbtn {
+/* .dropbtn {
   color: #e2396f;
   padding: 16px;
   font-size: 16px;
@@ -6,12 +6,14 @@
   background-color: white;
   font-family: quasimoda, sans-serif;
   font-weight: 400;
+  border-radius: 5px;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
   bottom: 26px;
+  border-radius: 5px;
 }
 
 .dropdown-content {
@@ -20,6 +22,7 @@
   background-color: #f1f1f1;
   min-width: 160px;
   z-index: 1;
+  border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -27,4 +30,5 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-}
+  border-radius: 5px;
+} */

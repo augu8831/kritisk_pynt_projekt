@@ -12,13 +12,14 @@
   position: relative;
   display: inline-block;
   bottom: 26px;
+  border-radius: 10px;
 }
 
 .dropdown-content {
   display: none;
   color: #f784a9;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f1f1f194;
   min-width: 160px;
   z-index: 1;
 }
@@ -34,10 +35,11 @@
   display: block;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: #aee2dd;
-}
+/* .dropdown:hover .dropbtn {
+  background-color: #effeff4f;
+} */
 
 .dropdown-content a:hover {
-  background-color: #aee2dd;
+  background-color: #cd94c531;
+  /* background-color: #bdece780; */
 }
