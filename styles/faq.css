@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  padding: 10px;
 }
 
 main {
@@ -13,21 +14,30 @@ p {
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
+  color: #50333c;
 }
 
 h2 {
   font-family: quasimoda, sans-serif;
   font-style: normal;
   font-weight: 200;
-  color: black;
+  color: #50333c;
+  text-align: center;
+}
+
+p,
+h2 {
+  margin: 40px;
 }
 
 .col_1 {
   background-color: #fddce4;
+  border-radius: 100px;
 }
 
 .col_2 {
   background-color: #aee2dd;
+  border-radius: 100px;
 }
 
 /* .dropbtn {
