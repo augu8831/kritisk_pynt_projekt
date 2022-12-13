@@ -18,7 +18,6 @@ h1 {
   font-size: 2.2rem;
   text-align: center;
   font-family: "Modak", cursive;
-  font-style: bold;
 }
 
 h2 {
@@ -43,6 +42,12 @@ ul {
   text-overflow: unset;
   font-size: 1rem;
   font-weight: bold;
+}
+
+nav {
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 200;
 }
 
 .a a {
