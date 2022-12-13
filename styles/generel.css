@@ -29,9 +29,9 @@ h2 {
   font-size: 1.5rem;
   letter-spacing: 1.5px;
   color: #f7bcee;
-  font-family: "Fredoka One", cursive;
+  font-family: quasimoda, sans-serif;
   font-style: normal;
-  font-weight: 100px;
+  font-weight: 500;
 }
 
 h3 {
@@ -150,7 +150,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #fffefe72;
   min-width: 160px;
   z-index: 1;
 }

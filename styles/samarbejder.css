@@ -29,12 +29,31 @@ h1 {
 }
 
 section {
-  margin: 1rem;
-  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.col {
+/* .col {
   margin-left: 3rem;
   margin-right: 3rem;
   padding-bottom: 5rem;
+} */
+
+.grid_samarbejder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_samarbejder1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  border-radius: 45px;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

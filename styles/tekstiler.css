@@ -20,11 +20,11 @@ img {
 
 p {
   color: #f7bcee;
-  font-weight: bold;
   display: flexbox;
   text-align: center;
-  font-family: "Modak", cursive;
-  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+  font-style: normal;
+  font-weight: 100px;
   letter-spacing: 2px;
   padding-top: 1rem;
 }
