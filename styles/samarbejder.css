@@ -1,3 +1,11 @@
+main {
+  font-family: quasimoda, sans-serif;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
+
 dd {
   color: #f7bcee;
   font-size: 1rem;
@@ -6,13 +14,27 @@ dd {
   font-weight: 400;
   font-style: italic;
 }
+dt {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-family: quasimoda, sans-serif;
+  color: #f7bcee;
+  font-weight: 500;
+  font-style: normal;
+}
 
 h1 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 
 section {
   margin: 1rem;
   align-items: center;
+}
+
+.col {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 5rem;
 }
