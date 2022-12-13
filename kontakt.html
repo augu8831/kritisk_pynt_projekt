@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/generel.css" />
     <link rel="stylesheet" href="styles/kontakt.css" />
-    <title></title>
+    <title>Kritisk Pynt - Kontakt</title>
   </head>
   <body>
     <div class="headerbanner">
@@ -32,7 +32,42 @@
       </nav>
     </header>
     <main>
-      <h1>Kontakt</h1>
+      <article>
+        <h1>Kontakt</h1>
+        <section>
+          <header>
+            <h2>Kontakt os</h2>
+            <p>Udfyld kontaktformularen nedenfor, hvis du ønsker at kontakte os. Vi glæder os til at høre fra dig.</p>
+          </header>
+          <form action="kontakt.html" name="”kontakt”" netlify>
+            <div class="form-felt">
+              <label for="fornavn">Fornavn</label>
+              <input id="fornavn" name="fname" type="text" />
+            </div>
+
+            <div class="form-felt">
+              <label for="efternavn">Efternavn</label>
+              <input id="efternavn" name="ename" type="text" />
+            </div>
+
+            <div class="form-felt">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" />
+            </div>
+
+            <div class="form-felt">
+              <label>
+                Din besked
+                <textarea name="besked" rows="5"></textarea>
+              </label>
+            </div>
+
+            <div class="form-felt">
+              <button type="submit">Indsend</button>
+            </div>
+          </form>
+        </section>
+      </article>
     </main>
     <footer class="footerbanner">
       <p class="p_style">© 2022 Kritisk Pynt</p>
