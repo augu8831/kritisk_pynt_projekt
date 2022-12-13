@@ -39,33 +39,30 @@
             <h2>Kontakt os</h2>
             <p>Udfyld kontaktformularen nedenfor, hvis du ønsker at kontakte os. Vi glæder os til at høre fra dig.</p>
           </header>
-          <form action="kontakt.html" name="”kontakt”" netlify>
-            <div class="form-felt">
-              <label for="fornavn">Fornavn</label>
-              <input id="fornavn" name="fname" type="text" />
-            </div>
+          <div class="container">
+            <form action="action_page.php">
+              <label for="fname">Fornavn</label>
+              <input type="text" id="fname" name="firstname" placeholder="Fornavn.." />
 
-            <div class="form-felt">
-              <label for="efternavn">Efternavn</label>
-              <input id="efternavn" name="ename" type="text" />
-            </div>
+              <label for="lname">Efternavn</label>
+              <input type="text" id="lname" name="lastname" placeholder="Efternavn.." />
 
-            <div class="form-felt">
               <label for="email">E-mail</label>
-              <input id="email" name="email" type="email" />
-            </div>
+              <input type="text" id="email" name="email" placeholder="E-mail.." />
 
-            <div class="form-felt">
-              <label>
-                Din besked
-                <textarea name="besked" rows="5"></textarea>
-              </label>
-            </div>
+              <!-- <label for="country"></label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select> -->
 
-            <div class="form-felt">
-              <button type="submit">Indsend</button>
-            </div>
-          </form>
+              <label for="besked">Besked</label>
+              <textarea id="besked" name="besked" placeholder="Skriv din besked.." style="height: 200px"></textarea>
+
+              <input type="submit" value="Send" />
+            </form>
+          </div>
         </section>
       </article>
     </main>
