@@ -1,6 +1,8 @@
 main {
   font-family: quasimoda, sans-serif;
-  margin: 15rem;}
+  color: #f8f8f8;
+  margin: 15rem;
+}
 
 * {box-sizing: border-box;}
 
@@ -47,4 +49,11 @@ p {
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-style: bold;
+  color: white;
+  text-align: center;
 }
