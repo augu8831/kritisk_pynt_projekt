@@ -20,11 +20,11 @@ img {
 
 p {
   color: #f7bcee;
-  font-weight: bold;
   display: flexbox;
   text-align: center;
-  font-family: "Modak", cursive;
-  font-weight: bold;
+  font-family: "Fredoka One", cursive;
+  font-style: normal;
+  font-weight: 100px;
   letter-spacing: 2px;
   padding-top: 1rem;
 }
@@ -53,3 +53,34 @@ footer {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
+
+/* .dropbtn {
+  color: #f784a9;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  bottom: 26px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fffefe72;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f784a9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+} */

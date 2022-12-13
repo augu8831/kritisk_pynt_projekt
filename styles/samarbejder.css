@@ -1,0 +1,59 @@
+main {
+  font-family: quasimoda, sans-serif;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
+
+dd {
+  color: #f7bcee;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+dt {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  font-family: quasimoda, sans-serif;
+  color: #f7bcee;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+/* .col {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-bottom: 5rem;
+} */
+
+.grid_samarbejder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_samarbejder1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+img {
+  border-radius: 45px;
+  width: 450px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

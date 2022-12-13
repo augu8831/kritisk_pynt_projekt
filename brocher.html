@@ -6,19 +6,35 @@
     <link rel="stylesheet" href="https://use.typekit.net/rwm2nny.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/generel.css" />
     <link rel="stylesheet" href="styles/brocher.css" />
-    <title>Kritisk Pynt</title>
+    <link rel="stylesheet" href="styles/shop.css" />
+    <link rel="stylesheet" href="styles/shop.html" />
+    <title>Kritisk Pynt - Brocher</title>
   </head>
   <body>
+    <div class="headerbanner">
+      <p class="p_style2">★Tilmeld dig vores NYHEDSBREV her★&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p class="p_style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★Butik åbent: tirsdag-fredag kl. 13-17 + første lørdag i måneden★&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p class="p_style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★FRI FRAGT ved køb over 499kr★</p>
+    </div>
     <header>
       <div class="logo_style">
         <img src="images/logo/logo_farve.svg" />
       </div>
       <nav class="nav_style a">
         <ul>
-          <li><a href="shop.html">SHOP</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">SHOP</button>
+            <div class="dropdown-content">
+              <a href="noegleringe.html">Nøgleringe</a>
+              <a href="kopper.html">Kopper</a>
+              <a href="brocher.html">Brocher</a>
+              <a href="tekstiler.html">Tekstiler</a>
+              <a href="andet.html">Andet</a>
+            </div>
+          </div>
           <li><a href="om_os.html">OM OS</a></li>
           <li><a href="samarbejder.html">SAMARBEJDER</a></li>
           <li><a href="kontakt.html">KONTAKT</a></li>
@@ -26,40 +42,42 @@
         </ul>
       </nav>
     </header>
-    <article>
-      <section class="col">
-        <h1>brocher</h1>
-      </section>
-      <section class="col">
-        <div class="grid_shop">
-          <div>
-            <img src="images/produkter/ikkealene_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
+    <main>
+      <article>
+        <section class="col">
+          <h1>brocher</h1>
+        </section>
+        <section class="col">
+          <div class="grid_shop">
+            <div>
+              <img src="images/produkter/bluebroche.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div>
+            <div>
+              <img src="images/produkter/guldbroche.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div>
+            <!-- <div>
+              <img src="images/produkter/omsorg_ring.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div>
+            <div>
+              <img src="images/produkter/pyt_ring.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div>
+            <div>
+              <img src="images/produkter/rovognogler_ring.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div>
+            <div>
+              <img src="images/produkter/sutden_ring.JPG" alt="Du er ikke alene nøglering" />
+              <p>200kr</p>
+            </div> -->
           </div>
-          <div>
-            <img src="images/produkter/holdfast_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
-          </div>
-          <div>
-            <img src="images/produkter/omsorg_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
-          </div>
-          <div>
-            <img src="images/produkter/pyt_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
-          </div>
-          <div>
-            <img src="images/produkter/rovognogler_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
-          </div>
-          <div>
-            <img src="images/produkter/sutden_ring.JPG" alt="Du er ikke alene nøglering" />
-            <p>200kr</p>
-          </div>
-        </div>
-      </section>
-    </article>
-    <footer>
+        </section>
+      </article>
+    </main>
+    <footer class="footerbanner">
       <p class="p_style">© 2022 Kritisk Pynt</p>
       <p class="p_style">CVR.NR. 38314408, Bjørnsonsvej 101, 2500 Valby</p>
     </footer>

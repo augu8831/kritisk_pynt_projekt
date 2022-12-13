@@ -6,17 +6,35 @@
     <link rel="stylesheet" href="https://use.typekit.net/rwm2nny.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Modak&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles/generel.css" />
     <link rel="stylesheet" href="styles/kontakt.css" />
-    <title></title>
+    <link rel="stylesheet" href="styles/shop.css" />
+    <link rel="stylesheet" href="styles/shop.html" />
+    <title>Kritisk Pynt - Kontakt</title>
   </head>
-
   <body>
+    <div class="headerbanner">
+      <p class="p_style2">★Tilmeld dig vores NYHEDSBREV her★&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p class="p_style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★Butik åbent: tirsdag-fredag kl. 13-17 + første lørdag i måneden★&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p class="p_style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★FRI FRAGT ved køb over 499kr★</p>
+    </div>
     <header>
-      <nav>
+      <div class="logo_style">
+        <img src="images/logo/logo_farve.svg" />
+      </div>
+      <nav class="nav_style a">
         <ul>
-          <li><a href="shop.html">SHOP</a></li>
+          <div class="dropdown">
+            <button class="dropbtn">SHOP</button>
+            <div class="dropdown-content">
+              <a href="noegleringe.html">Nøgleringe</a>
+              <a href="kopper.html">Kopper</a>
+              <a href="brocher.html">Brocher</a>
+              <a href="tekstiler.html">Tekstiler</a>
+              <a href="andet.html">Andet</a>
+            </div>
+          </div>
           <li><a href="om_os.html">OM OS</a></li>
           <li><a href="samarbejder.html">SAMARBEJDER</a></li>
           <li><a href="kontakt.html">KONTAKT</a></li>
@@ -24,6 +42,53 @@
         </ul>
       </nav>
     </header>
-    <h1>Kontakt</h1>
+    <main>
+      <article>
+        <h1>Kontakt</h1>
+        <section class="col_kontakt">
+          <p><strong>Særbestillinger sker her:</strong> Bestil her</p>
+          <p><br /></p>
+          <p>
+            <strong>Større produktioner af Kritisk Pynt:</strong> Hvert enkelt stykke pynt bliver håndlavet af Sara og er en langsommelig proces, hvor farver først skal blandet, ler rulles, tekst skrives i hånden, bagning, farvelægning og 2 lag lak –
+            så der gives desværre ikke rabat på større mængder.
+          </p>
+          <p><br /></p>
+          <p><strong>Firmagaver med grafiske tryk:</strong> Grafiske tryk og prints – herunder t-shirts, kopper og muleposer, har en startpris og så en stykpris.</p>
+          <p><br /></p>
+          <p>
+            Jo flere du bestiller, jo billigere. Skriv i din forespørgsel hvordan mange ca. og hvad og så giver vi en pris. Sara forbeholder sig retten til at sige nej, hvis designet ligger for langt fra hendes æstetik – det skal stadig være Kritisk
+            Pynt.
+          </p>
+          <p><br /></p>
+          <p>Udfyld kontaktformularen nedenfor, hvis du ønsker at kontakte os. Vi glæder os til at høre fra dig <3</p>
+        </section>
+        <section>
+          <header></header>
+          <div class="container">
+            <h2>★&nbsp;Kontaktformular&nbsp;★</h2>
+
+            <form action="action_page.php">
+              <label for="fornavn">Fornavn</label>
+              <input type="text" id="fornavn" name="fornavn" placeholder="Fornavn.." />
+
+              <label for="efternavn">Efternavn</label>
+              <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn.." />
+
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="email" placeholder="E-mail.." />
+
+              <label for="besked">Besked</label>
+              <textarea id="besked" name="besked" placeholder="Skriv din besked.." style="height: 200px"></textarea>
+
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer class="footerbanner">
+      <p class="p_style">© 2022 Kritisk Pynt</p>
+      <p class="p_style">CVR.NR. 38314408, Bjørnsonsvej 101, 2500 Valby</p>
+    </footer>
   </body>
 </html>
