@@ -79,6 +79,7 @@ header {
   padding: 10px;
   background: #aee2dd;
   display: flexbox;
+  text-align: center;
 }
 
 .footerbanner {
