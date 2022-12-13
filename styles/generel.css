@@ -12,7 +12,7 @@ main {
   color: #fffafa;
 }
 .col {
-  margin: 2rem;
+  margin: 3rem;
 }
 
 h1 {
@@ -71,7 +71,7 @@ footer {
 }
 
 header {
-  padding-bottom: 7rem;
+  padding-bottom: 1rem;
   text-align: center;
 }
 

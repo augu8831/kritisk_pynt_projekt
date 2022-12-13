@@ -20,24 +20,23 @@ img {
 
 p {
   color: #f7bcee;
-  font-weight: bold;
+  font-weight: lighter;
   display: flexbox;
   text-align: center;
   font-family: "Modak", cursive;
-  font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   padding-top: 1rem;
 }
 
 .p_style {
   color: #f7bcee;
-  font-weight: bold;
+  font-weight: lighter;
   display: flexbox;
   text-align: center;
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 0.8rem;
 }
 
@@ -51,4 +50,9 @@ p {
 footer {
   padding-bottom: 2rem;
   color: #aee2dd;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: lighter;
 }
