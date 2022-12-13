@@ -1,44 +1,45 @@
 main {
   font-family: quasimoda, sans-serif;
-  margin: 15rem;}
+  color: #f8f8f8;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
 
-* {box-sizing: border-box;}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f7bcee;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
- /* Style inputs with type="text", select elements and textareas */
- input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #f7bcee; /* Gray border */
-  border-radius: 10px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+input[type="submit"] {
   background-color: #f7bcee;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #cd94c5;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+input[type="submit"]:hover {
+  background-color: #cd94c5;
+}
+
+.container {
   border-radius: 10px;
-  background-color:#E5DAF7;
+  background-color: #e5daf7;
   padding: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  } 
+}
 
 p {
   color: #f7bcee;
@@ -47,4 +48,19 @@ p {
   font-family: quasimoda, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+  color: white;
+  text-align: center;
+  font-family: quasimoda, sans-serif;
+}
+
+.col_kontakt {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
