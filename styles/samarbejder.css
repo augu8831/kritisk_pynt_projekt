@@ -11,3 +11,34 @@ section {
   margin: 1rem;
   align-items: center;
 }
+
+.dropbtn {
+  color: #e2396f;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  bottom: 26px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #e2396f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
