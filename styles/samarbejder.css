@@ -1,0 +1,13 @@
+p {
+  color: #f7bcee;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+section {
+  margin: 1rem;
+  align-items: center;
+}

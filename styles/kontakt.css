@@ -1,11 +1,10 @@
 main {
   font-family: quasimoda, sans-serif;
   color: #f8f8f8;
-  margin: 15rem;
-}
-
-* {
-  box-sizing: border-box;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
 }
 
 input[type="text"],
