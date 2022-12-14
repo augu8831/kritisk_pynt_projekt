@@ -44,19 +44,28 @@ section {
 
 .grid_samarbejder {
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .grid_samarbejder1 {
   display: grid;
-  grid-template-columns: 1fr;
 }
 
-.img {
-  border-radius: 45px;
-  width: 450px;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@media (min-width: 850px) {
+  .grid_samarbejder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_samarbejder1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img {
+    border-radius: 45px;
+    width: 450px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
