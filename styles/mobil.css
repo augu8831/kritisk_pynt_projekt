@@ -1,0 +1,44 @@
+.mobil-menu li:hover{
+    background:none;
+    border-bottom: none;
+    
+}
+
+.mobil-menu li{
+    transition:none;
+}
+.mobil-menu {
+    margin-top: 20px;
+    height: 160px;
+   display: none;
+}
+
+.mobil-menu a{
+    text-decoration: none;
+    color: #E2396F;
+    display: block;
+    padding: 5px 20px;
+}
+
+.menu-v{
+    display: block;
+}
+
+.burgermenu{
+    width: 40px;
+}
+
+.burgermenu-container{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav_style{
+        display: none;
+    }
+
+.burgermenu-container{
+    display: block;
+}
+
+}
