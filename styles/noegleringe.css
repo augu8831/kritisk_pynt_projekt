@@ -6,7 +6,6 @@
 .grid_shop {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
 }
 
 img {
@@ -195,4 +194,10 @@ i {
 }
 .fa-check {
   background: #9c7ba3;
+}
+
+@media (min-width: 850px) {
+  .grid_shop {
+    grid-template-columns: 1fr 1fr;
+  }
 }

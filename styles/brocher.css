@@ -6,7 +6,6 @@
 .grid_shop {
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr 1fr;
 }
 
 img {
@@ -84,3 +83,9 @@ footer {
   text-decoration: none;
   display: block;
 } */
+
+@media (min-width: 850px) {
+  .grid_shop {
+    grid-template-columns: 1fr 1fr;
+  }
+}
