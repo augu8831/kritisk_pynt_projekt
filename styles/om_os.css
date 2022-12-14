@@ -9,13 +9,24 @@
   grid-template-columns: 1fr 1fr;
 }
 
-img {
+.img_billeder {
   max-width: 100%;
   border-radius: 100px;
 }
 
 p {
   line-height: 30px;
+}
+
+.catogori-star {
+  width: 100px;
+  text-align: center;
+}
+
+.first-star {
+  max-width: 100%;
+  text-align: center;
+  margin: 70px auto;
 }
 
 /* .dropbtn {
