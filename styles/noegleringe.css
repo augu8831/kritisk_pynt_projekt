@@ -41,6 +41,10 @@ p {
   font-size: 0.8rem;
 }
 
+.p {
+  font-family: quasimoda, sans-serif;
+}
+
 /* .p_style {
   color: #ffffff;
   font-weight: bold;
@@ -120,3 +124,75 @@ footer {
   text-decoration: none;
   display: block;
 } */
+
+/* * {
+  box-sizing: border-box;
+  outline: none;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: #dff9fb;
+  background-attachment: fixed;
+} */
+.fa-cart-plus {
+  background: #dea5ed;
+}
+
+.addtocart {
+  display: block;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 100px;
+  border: none;
+  font-size: 2em;
+  position: relative;
+  background: #dea5ed;
+  cursor: pointer;
+  height: 1.5em;
+  width: 3.5em;
+  overflow: hidden;
+  transition: transform 0.1s;
+  z-index: 1;
+}
+.addtocart:hover {
+  transform: scale(1.1);
+}
+.pretext {
+  color: #fff;
+  background: #dea5ed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: quasimoda, sans-serif;
+}
+i {
+  margin-right: 10px;
+}
+.done {
+  background: #9c7ba3;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+
+  transform: translate(-110%) skew(-40deg);
+}
+.posttext {
+  background: #9c7ba3;
+}
+.fa-check {
+  background: #9c7ba3;
+}
