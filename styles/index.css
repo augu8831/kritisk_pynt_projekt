@@ -188,7 +188,15 @@ body {
    
   }
 
-  
+}
 
+.insta-content {
+  text-align: center;
+  padding: 150px 0;
+  }
+
+.insta-content img{
+width: 350px;
+margin: 0 auto;
 }
 
