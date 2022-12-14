@@ -49,7 +49,7 @@ section {
   grid-template-columns: 1fr;
 }
 
-img {
+.img {
   border-radius: 45px;
   width: 450px;
   height: auto;
