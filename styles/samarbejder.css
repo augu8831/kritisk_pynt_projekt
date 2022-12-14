@@ -7,7 +7,7 @@ main {
 }
 
 dd {
-  color: #50333c;
+  color: #f784a9;
   font-size: 1rem;
   letter-spacing: 1.5px;
   font-family: quasimoda, sans-serif;
@@ -18,7 +18,7 @@ dt {
   font-size: 1.2rem;
   letter-spacing: 1.5px;
   font-family: quasimoda, sans-serif;
-  color: #50333c;
+  color: #f784a9;
   font-weight: 500;
   font-style: normal;
 }
