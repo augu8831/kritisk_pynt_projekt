@@ -1,17 +1,9 @@
-.grid_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: #f2e9f8;
-}
-
-.grid_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .img_billeder {
   max-width: 100%;
   border-radius: 100px;
+}
+.grid_1 {
+  background-color: #f2e9f8c4;
 }
 
 p {
@@ -27,6 +19,18 @@ p {
   max-width: 100%;
   text-align: center;
   margin: 70px auto;
+}
+
+@media (min-width: 850px) {
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /* .dropbtn {

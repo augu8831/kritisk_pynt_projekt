@@ -33,7 +33,6 @@ h2 {
   padding-top: 0;
   padding-bottom: 1rem;
 }
-
 p,
 h2 {
   margin: 40px;
@@ -49,7 +48,7 @@ h2 {
   border-radius: 100px;
 }
 .col_3 {
-  background-color: #f2e9f8c2;
+  background-color: #f2e9f8c4;
   border-radius: 100px;
 }
 
