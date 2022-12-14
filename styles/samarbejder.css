@@ -7,7 +7,7 @@ main {
 }
 
 dd {
-  color: #f7bcee;
+  color: #50333c;
   font-size: 1rem;
   letter-spacing: 1.5px;
   font-family: quasimoda, sans-serif;
@@ -18,7 +18,7 @@ dt {
   font-size: 1.2rem;
   letter-spacing: 1.5px;
   font-family: quasimoda, sans-serif;
-  color: #f7bcee;
+  color: #50333c;
   font-weight: 500;
   font-style: normal;
 }
@@ -26,6 +26,10 @@ dt {
 h1 {
   padding-top: 1.5rem;
   padding-bottom: 2.5rem;
+}
+
+h2 {
+  color: #50333c;
 }
 
 section {
