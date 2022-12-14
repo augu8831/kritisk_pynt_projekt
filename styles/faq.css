@@ -1,11 +1,12 @@
 .grid_1-1 {
   display: grid;
-  gap: 30px;
+  gap: 50px;
   padding: 10px;
 }
 
 main {
-  margin: 20px;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 p {
@@ -13,15 +14,24 @@ p {
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
-  color: #50333c;
+  /* color: #50333c; */
+  color: rgb(82, 82, 82);
 }
 
 h2 {
   font-family: quasimoda, sans-serif;
   font-style: normal;
   font-weight: 200;
-  color: #50333c;
+  /* color: #50333c; */
+  color: rgb(82, 82, 82);
   text-align: center;
+}
+
+.col {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-top: 0;
+  padding-bottom: 1rem;
 }
 
 p,
