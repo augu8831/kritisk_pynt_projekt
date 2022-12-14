@@ -27,7 +27,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   letter-spacing: 1.5px;
-  color: #f7bcee;
+  color: #f784a9;
   font-family: quasimoda, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -73,7 +73,7 @@ nav {
 }
 
 .a a {
-  color: #86cdce;
+  color: #f7bcee;
   /* color: #caadf8; */
   letter-spacing: 1.5px;
   font-family: quasimoda, sans-serif;
@@ -139,7 +139,7 @@ header {
 }
 
 .dropbtn {
-  color: #86cdce;
+  color: #f7bcee;
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -166,7 +166,7 @@ header {
 }
 
 .dropdown-content a {
-  color: #86cdce;
+  color: #f7bcee;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
