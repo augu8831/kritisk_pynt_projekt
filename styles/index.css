@@ -45,6 +45,7 @@ body {
 
 .kp-button {
   padding: 12px 25px;
+  font-family: "Fredoka One", cursive;
   border: 3px solid white;
   border-radius: 15px;
   text-decoration: none;
@@ -157,46 +158,36 @@ body {
   width: 600px;
   margin: 100px auto;
   text-align: center;
- 
-
-  
 }
 
-.newsletter-content p{
+.newsletter-content p {
   font-size: 35px;
   padding: 60px 0;
-  
 }
 
-.newsletter-content input{
+.newsletter-content input {
   width: 80%;
   height: 40px;
   border-radius: 25px;
   border: none;
-  padding:15px;
+  padding: 15px;
   margin: 20px;
-  
 }
 
-
 @media only screen and (max-width: 700px) {
-
   .newsletter-content {
     width: 100%;
     margin: 100px auto;
     text-align: center;
-   
   }
-
 }
 
 .insta-content {
   text-align: center;
   padding: 150px 0;
-  }
-
-.insta-content img{
-width: 350px;
-margin: 0 auto;
 }
 
+.insta-content img {
+  width: 350px;
+  margin: 0 auto;
+}
