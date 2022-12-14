@@ -19,7 +19,7 @@ img {
 }
 
 p {
-  color: #f7bcee;
+  color: #f784a9;
   display: flexbox;
   text-align: center;
   font-family: "Fredoka One", cursive;
@@ -27,6 +27,18 @@ p {
   font-weight: 100px;
   letter-spacing: 2px;
   padding-top: 1rem;
+}
+
+.p_style {
+  color: #ffffff;
+  font-weight: bold;
+  display: flexbox;
+  text-align: center;
+  font-family: quasimoda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
 }
 
 /* .p_style {
