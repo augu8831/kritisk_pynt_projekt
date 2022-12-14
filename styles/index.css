@@ -154,7 +154,27 @@ body {
 }
 
 .newsletter-content {
-  width: 400px;
+  width: 600px;
   margin: 100px auto;
   text-align: center;
+ 
+
+  
 }
+
+.newsletter-content p{
+  font-size: 35px;
+  padding: 60px 0;
+  
+}
+
+.newsletter-content input{
+  width: 350px;
+  height: 40px;
+  border-radius: 25px;
+  border: none;
+  padding:15px;
+  margin: 20px;
+  
+}
+
